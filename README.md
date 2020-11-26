@@ -10,6 +10,8 @@ https://algospot.com/judge/problem/read/PALINDROMIZE
 
 원래 문자열의 길이가 n이고 일치하는 길이가 k라고 할 때 가장 짧은 팰린드롬은 2n - k가 된다.
 
+겹치는 문자열의 길이를 찾을 때는 kmp 알고리즘을 이용한다.
+
 ex) there을 이용해서 만들 수 있는 가장 짧은 팰린드롬을 찾는다고 할 때,
 
     there을 뒤집으면 ereth,  there의 뒷 부분 ere와 ereth의 앞 부분 ere가 일치한다.
